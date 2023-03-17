@@ -39,7 +39,7 @@ git commit -m "03 Common Programming Concepts 학순" -m "응애"
 <br />
 <br />
 
-## ✅ 코드 리뷰 규칙 (optional)
+## 코드 리뷰 규칙 (optional)
 - PR에서 리뷰를 한다
 - 의견제시
   -   중요한 개념
