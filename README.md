@@ -15,11 +15,11 @@
 - 폴더명 또는 파일명에 특수문자 지양
 
 ## Commit 규칙
-- Commit 메세지: Chapter number + Chapter title + `이름` (혹은 `ID`), ex) 03 Common Programming Concepts 학순
+- Commit 메세지: Chapter number + Chapter title + '이름' (혹은 'ID'), ex) `03 Common Programming Concepts 학순`
 - description (optional)
 - 터미널 작성법: 
 ```
-git commit -m "03 Common Programming Concepts 학순" -m "응애"
+`git commit -m "03 Common Programming Concepts 학순" -m "응애"`
 ```
 
 ## PR 규칙
