@@ -1,4 +1,4 @@
-/* Reference: Chapter 07, Listing 7-13
+/* Reference: Chapter 07, Listing 7-17
  * `pub use` 키워드를 사용하여 shortcut을 re-export할 수 있음
  */
 mod front_of_house {
