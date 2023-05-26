@@ -12,8 +12,14 @@ use crate::front_of_house::hosting;
 
 mod customer {
     pub fn eat_at_restaurant() {
-        // super::hosting::add_to_waitlist();
+        // Incorrect
         hosting::add_to_waitlist();
+
+        // Correct
+        // super::hosting::add_to_waitlist();
+
+        // Also correct
+        // super::front_of_house::hosting::add_to_waitlist();
     }
 }
 

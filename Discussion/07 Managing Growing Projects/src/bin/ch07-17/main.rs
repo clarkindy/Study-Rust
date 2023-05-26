@@ -14,7 +14,10 @@ mod front_of_house {
 }
 
 pub fn eat_at_restaurant() {
+    // Incorrect since `front_of_house::hosting` is private
     // front_of_house::hosting::add_to_waitlist();
+
+    // Correct
     front_of_house::add_to_waitlist();
 }
 

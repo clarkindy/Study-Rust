@@ -5,10 +5,10 @@
  * 참조하고 싶으면 `pub` 키워드를 사용해 해당 구성요소를 public으로 선언해야 함
  */
 mod front_of_house {
-    pub mod hosting {
-    // mod hosting {
-        pub fn add_to_waitlist() {}
-        // fn add_to_waitlist() {}
+    mod hosting {
+    // pub mod hosting {
+        fn add_to_waitlist() {}
+        // pub fn add_to_waitlist() {}
     }
 }
 
